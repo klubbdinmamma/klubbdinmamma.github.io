@@ -2,11 +2,11 @@
  * Globals
  */
 
-@media (min-width: 48em) {
+/*@media (min-width: 48em) {
   html {
     font-size: 18px;
   }
-}
+}*/
 
 body {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
