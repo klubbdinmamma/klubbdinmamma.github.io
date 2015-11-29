@@ -38,15 +38,6 @@ blockquote:after {
   font-family: FontAwesome;
 }
 
-/*blockquote:before {
-  content: "“";
-  font-family: Georgia, serif;
-  float: left;
-  margin-right: 10px;
-  font-size: 700%;
-}*/
-
-
 /*
  * Masthead for nav
  */
@@ -121,5 +112,6 @@ blockquote:after {
 }
 
 .jumbotron {
-  /*background-color: #fff;*/
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
