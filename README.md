@@ -2,8 +2,10 @@
 
 Preview at http://nya.klubbdinmamma.com.
 
-## Development with LiveReload
+## Development with live reload
 
-    brew cask install livereload
+    npm install -g live-server
 
-Install [Chrome extension](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei), allow access to File URLs.
+    live-server --browser=/Applications/Google\ Chrome\ Canary.app
+
+`live-server` will open the page automatically.
