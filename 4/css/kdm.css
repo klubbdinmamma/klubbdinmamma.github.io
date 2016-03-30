@@ -2,3 +2,7 @@ body {
   padding-top: 70px;
   padding-bottom: 50px;
 }
+
+.jumbotron {
+  background-color: #ffcccc;
+}
