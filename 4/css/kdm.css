@@ -1,6 +1,23 @@
+/*
+http://stackoverflow.com/questions/18424798/twitter-bootstrap-3-how-to-use-media-queries
+@media(max-width:767px){}
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){}
+*/
+
 body {
   padding-top: 70px;
   padding-bottom: 50px;
+}
+
+@media(min-width:768px){
+  body {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background: url(../img/rosor_left.png) repeat-y left scroll,
+      url(../img/rosor_right.png) repeat-y right scroll;
+  }
 }
 
 .jumbotron {
