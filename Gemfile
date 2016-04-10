@@ -6,6 +6,6 @@ versions = JSON.parse(open("https://pages.github.com/versions.json").read)
 
 gem "github-pages", versions["github-pages"]
 
-group :development do
+group :test do
   gem "jekyll-bootstrap-sass"
 end
