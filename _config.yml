@@ -1,0 +1,6 @@
+---
+# https://github.com/benbalter/jekyll-bootstrap-sass
+gems:
+  - jekyll-bootstrap-sass
+bootstrap:
+  assets: true
