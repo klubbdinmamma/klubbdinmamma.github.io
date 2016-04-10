@@ -4,3 +4,14 @@ gems:
   - jekyll-bootstrap-sass
 bootstrap:
   assets: true
+exclude:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - bootstrap
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - README.md

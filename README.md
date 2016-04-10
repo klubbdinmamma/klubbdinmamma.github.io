@@ -17,6 +17,13 @@ Links:
 * http://blog.davepoon.net/2015/01/19/setting-up-sass-with-jekyll/
 * https://github.com/jekyll/jekyll-sass-converter/tree/master/example
 
+<!-- -->
+
+* https://pages.github.com/versions/
+* http://jekyllrb.com/docs/continuous-integration/
+* http://garthdb.com/writings/i-am-a-jekyll-god/
+* http://tongueroo.com/articles/how-to-use-any-jekyll-plugins-on-github-pages-with-circleci/
+
 ## [Live Server](https://github.com/tapio/live-server)
 
 > A simple development http server with live reload capability.
