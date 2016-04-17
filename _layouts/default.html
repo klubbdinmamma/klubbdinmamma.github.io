@@ -19,30 +19,30 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/4">
+          <a class="navbar-brand" href="/">
             <img src="img/Loggan_rak_486.png" height="28" />
           </a>
         </div>
         <div class="navbar-collapse collapse" id="navbar">
           <!-- Collect the nav links, forms, and other content for toggling -->
           <ul class="nav navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Hem <span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+              <a class="nav-link" href="/">Hem</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Nyheter</a>
+              <a class="nav-link" href="/news">Nyheter</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Konserter</a>
+              <a class="nav-link" href="/events">Konserter</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Fotografier</a>
+              <a class="nav-link" href="/photos">Fotografier</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Om klubben</a>
+              <a class="nav-link" href="/about">Om klubben</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Kontakt</a>
+              <a class="nav-link" href="/contact">Kontakt</a>
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right hidden-xs">
@@ -66,6 +66,7 @@
                 <i class="fa fa-spotify fa-lg"></i>
               </a>
             </li>
+            <!-- not used so much
             <li>
               <a href="https://soundcloud.com/klubb-din-mamma" target="_blank">
                 <i class="fa fa-soundcloud fa-lg"></i>
@@ -76,6 +77,7 @@
                 <i class="fa fa-youtube-square fa-lg"></i>
               </a>
             </li>
+            -->
             <li>
               <a href="http://klubbdinmamma.com/rss" target="_blank">
                 <i class="fa fa-rss fa-lg"></i>
@@ -91,7 +93,10 @@
 
     <div class="container-fluid">
       <div class="row">
-        {{ content }}
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+          {{ content }}
+        </div>
       </div>
     </div>
     <!-- <nav class="navbar navbar-default navbar-fixed-bottom">
@@ -116,5 +121,6 @@
     </footer>
     <script src="https://code.jquery.com/jquery-2.2.3.min.js" type="text/javascript"></script>
     <script src="assets/javascripts/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/javascripts/kdm.js" type="text/javascript"></script>
   </body>
 </html>
