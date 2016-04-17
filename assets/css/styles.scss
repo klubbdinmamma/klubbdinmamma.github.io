@@ -5,10 +5,11 @@
 
 @import "variables";
 @import "breakpoint";
+@import "colors";
 @import "bootstrap";
 
 $footer-xs-height: 60px;
-$footer-height: 120px;
+$footer-height: 60px;
 
 html {
   // Sticky footer styles
@@ -19,6 +20,7 @@ html {
 body {
   padding-top: 70px;
   padding-bottom: 50px;
+  background-color: $body-bg;
 
   @include breakpoint(xs) {
     margin-bottom: $footer-xs-height;
@@ -28,6 +30,8 @@ body {
   @include breakpoint(sm) {
     background: url(../img/rosor_left.png) repeat-y left scroll,
       url(../img/rosor_right.png) repeat-y right scroll;
+
+    background-color: $body-bg;
 
     /* Margin bottom by footer height */
     margin-bottom: $footer-height;
@@ -42,11 +46,11 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: #f5f5f5;
 
   /* Set the fixed height of the footer here */
   @include breakpoint(xs) {
     height: $footer-xs-height;
+    background-color: $footer-bg-color;
   }
   @include breakpoint(sm) {
     height: $footer-height;
