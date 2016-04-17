@@ -1,0 +1,16 @@
+#!/bin/sh
+
+set -e
+
+if [[ -n $(git status --porcelain) ]]; then echo "repo is dirty"; exit 1; fi
+
+REV=`git rev-parse --short HEAD`
+
+rm -rf _site
+bundle exec jekyll build
+git checkout master
+cp -r -f _site/* .
+git add .
+git commit -m "deploy ${REV}"
+git push origin master
+git checkout dev
