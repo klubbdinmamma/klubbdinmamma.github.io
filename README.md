@@ -30,6 +30,6 @@ Links:
 
     npm install -g live-server
 
-    live-server --browser=/Applications/Google\ Chrome\ Canary.app
+    live-server --browser=/Applications/Google\ Chrome\ Canary.app _site
 
 `live-server` will open the page automatically.
