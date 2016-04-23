@@ -1083,10 +1083,10 @@ textarea {
   line-height: inherit; }
 
 a {
-  color: #337ab7;
+  color: #5d0010;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #23527c;
+    color: #ff5d79;
     text-decoration: underline; }
   a:focus {
     outline: thin dotted;
@@ -1273,11 +1273,11 @@ mark,
   color: #777777; }
 
 .text-primary {
-  color: #337ab7; }
+  color: #5d0010; }
 
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #286090; }
+  color: #2a0007; }
 
 .text-success {
   color: #3c763d; }
@@ -1311,11 +1311,11 @@ a.text-danger:focus {
   color: #fff; }
 
 .bg-primary {
-  background-color: #337ab7; }
+  background-color: #5d0010; }
 
 a.bg-primary:hover,
 a.bg-primary:focus {
-  background-color: #286090; }
+  background-color: #2a0007; }
 
 .bg-success {
   background-color: #dff0d8; }
@@ -3087,7 +3087,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
     background-color: #fff; }
 
 .btn-link {
-  color: #337ab7;
+  color: #5d0010;
   font-weight: normal;
   border-radius: 0; }
   .btn-link, .btn-link:active, .btn-link.active, .btn-link[disabled], fieldset[disabled] .btn-link {
@@ -3097,7 +3097,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   .btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
     border-color: transparent; }
   .btn-link:hover, .btn-link:focus {
-    color: #23527c;
+    color: #ff5d79;
     text-decoration: underline;
     background-color: transparent; }
   .btn-link[disabled]:hover, .btn-link[disabled]:focus, fieldset[disabled] .btn-link:hover, fieldset[disabled] .btn-link:focus {
@@ -3586,7 +3586,7 @@ tbody.collapse.in {
         cursor: not-allowed; }
   .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
     background-color: #eeeeee;
-    border-color: #337ab7; }
+    border-color: #5d0010; }
   .nav .nav-divider {
     height: 1px;
     margin: 9px 0;
@@ -3959,16 +3959,16 @@ tbody.collapse.in {
   background-color: pink;
   border-color: #ff9fb0; }
   .navbar-default .navbar-brand {
-    color: #333; }
+    color: #000; }
     .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-      color: #1a1a1a;
+      color: black;
       background-color: transparent; }
   .navbar-default .navbar-text {
     color: pink; }
   .navbar-default .navbar-nav > li > a {
-    color: #333; }
+    color: #000; }
     .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-      color: #ff5d79;
+      color: #ff103a;
       background-color: transparent; }
   .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #333;
@@ -3990,9 +3990,9 @@ tbody.collapse.in {
     color: #333; }
   @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-      color: #333; }
+      color: #000; }
       .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: #ff5d79;
+        color: #ff103a;
         background-color: transparent; }
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
       color: #333;
@@ -4001,13 +4001,13 @@ tbody.collapse.in {
       color: #ccc;
       background-color: transparent; } }
   .navbar-default .navbar-link {
-    color: #333; }
+    color: #000; }
     .navbar-default .navbar-link:hover {
-      color: #ff5d79; }
+      color: #ff103a; }
   .navbar-default .btn-link {
-    color: #333; }
+    color: #000; }
     .navbar-default .btn-link:hover, .navbar-default .btn-link:focus {
-      color: #ff5d79; }
+      color: #ff103a; }
     .navbar-default .btn-link[disabled]:hover, .navbar-default .btn-link[disabled]:focus, fieldset[disabled] .navbar-default .btn-link:hover, fieldset[disabled] .navbar-default .btn-link:focus {
       color: #ccc; }
 
@@ -4350,7 +4350,7 @@ a.badge:hover, a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #337ab7; }
+  border-color: #5d0010; }
 
 .alert {
   padding: 15px;
@@ -5847,7 +5847,7 @@ body {
 -------------------------------------------------- */
 /* Carousel base class */
 .carousel {
-  height: 500px;
+  height: 640px;
   margin-bottom: 60px; }
 
 /* Since positioning the image, we need to help out the caption */
@@ -5856,7 +5856,7 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 500px;
+  height: 640px;
   background-color: #777; }
 
 .carousel-inner > .item > img {
@@ -5864,5 +5864,22 @@ body {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 500px;
+  height: 640px;
   max-width: none; }
+
+/* vertical-align with Bootstrap 3
+   http://stackoverflow.com/questions/20547819/vertical-align-with-bootstrap-3
+   http://www.codeply.com/go/iJQNo8ynfT
+-------------------------------------------------- */
+@media (min-width: 768px) {
+  .vertical-align {
+    display: flex;
+    flex-direction: row; }
+
+  .vertical-align > [class^="col-"] {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+  .vertical-align > [class^="col-"] > div {
+    flex-grow: 1; } }
