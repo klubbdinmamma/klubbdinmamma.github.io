@@ -2,13 +2,38 @@
 
 Preview at http://nya.klubbdinmamma.com.
 
-## [Jekyll](https://jekyllrb.com/)
+## Tools
 
-    bundle
+[Ruby](https://www.ruby-lang.org/en/) and [Jekyll](https://jekyllrb.com/) (required)
 
-    bundle exec jekyll serve
+> Transform your plain text into static websites and blogs.
 
-Links:
+Install:
+
+    gem install bundler
+    bundle install
+
+Start:
+
+    bin/serve
+
+Browse to [http://localhost:4000/](http://localhost:4000/).
+
+[Live Server](https://github.com/tapio/live-server) (optional)
+
+> A simple development http server with live reload capability.
+
+Install:
+
+    npm install -g live-server
+
+Start:
+
+    bin/live
+
+`live-server` will open the page automatically in Google Chrome Canary.
+
+## Links:
 
 * https://jekyllrb.com/docs/assets/
 * https://github.com/twbs/bootstrap-sass
@@ -22,14 +47,5 @@ Links:
 * https://pages.github.com/versions/
 * http://jekyllrb.com/docs/continuous-integration/
 * http://garthdb.com/writings/i-am-a-jekyll-god/
+
 * http://tongueroo.com/articles/how-to-use-any-jekyll-plugins-on-github-pages-with-circleci/
-
-## [Live Server](https://github.com/tapio/live-server)
-
-> A simple development http server with live reload capability.
-
-    npm install -g live-server
-
-    live-server --browser=/Applications/Google\ Chrome\ Canary.app _site
-
-`live-server` will open the page automatically.
