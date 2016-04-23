@@ -7,6 +7,12 @@ $footer-bg-color:   lighten($pink, 4%);
 
 // $gray-base:         $even-darker-pink;
 
+$brand-primary:    darken($even-darker-pink, 50%);
+$link-color:       $brand-primary;
+$link-hover-color: $even-darker-pink;
+$link-hover-bg:    $dark-pink;
+
+
 $hr-border:                 $dark-pink;
 $page-header-border-color:  $dark-pink;
 $table-border-color:        $dark-pink;
@@ -23,8 +29,8 @@ $navbar-default-bg:                $pink;
 $navbar-default-border:            $dark-pink;
 
 // Navbar links
-$navbar-default-link-color:                #333;
-$navbar-default-link-hover-color:          $even-darker-pink;
+$navbar-default-link-color:                #000;
+$navbar-default-link-hover-color:          darken($even-darker-pink, 15%);
 $navbar-default-link-hover-bg:             transparent;
 $navbar-default-link-active-color:         #333;
 $navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%);

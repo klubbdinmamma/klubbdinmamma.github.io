@@ -10,6 +10,7 @@
 
 $footer-xs-height: 60px;
 $footer-height: 60px;
+$carousel-height: 640px;
 
 html {
   // Sticky footer styles
@@ -62,7 +63,7 @@ body {
 
 /* Carousel base class */
 .carousel {
-  height: 500px;
+  height: $carousel-height;
   margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -72,7 +73,7 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 500px;
+  height: $carousel-height;
   background-color: #777;
 }
 .carousel-inner > .item > img {
@@ -80,6 +81,28 @@ body {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 500px;
+  height: $carousel-height;
   max-width: none;
+}
+
+/* vertical-align with Bootstrap 3
+   http://stackoverflow.com/questions/20547819/vertical-align-with-bootstrap-3
+   http://www.codeply.com/go/iJQNo8ynfT
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+    .vertical-align {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .vertical-align > [class^="col-"] {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .vertical-align > [class^="col-"] > div {
+      flex-grow: 1;
+    }
 }
