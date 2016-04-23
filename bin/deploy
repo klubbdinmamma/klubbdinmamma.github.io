@@ -4,6 +4,8 @@ set -e
 
 if [[ -n $(git status --porcelain) ]]; then echo "repo is dirty"; exit 1; fi
 
+git push origin dev
+
 REV=`git rev-parse --short HEAD`
 
 rm -rf _site
