@@ -16,3 +16,5 @@ exclude:
   - Gemfile.lock
   - README.md
   - bin
+  - tumblr
+url: http://nya.klubbdinmamma.com
