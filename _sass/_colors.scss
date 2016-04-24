@@ -1,26 +1,29 @@
+// KDM
+
+$loggan:            #fc0072;
 $pink:              pink;
 $light-pink:        lighten($pink, 6.5%);
 $dark-pink:         darken($pink, 6.5%);
 $darker-pink:       darken($dark-pink, 6.5%);
 $even-darker-pink:  darken($darker-pink, 6.5%);
 $footer-bg-color:   lighten($pink, 4%);
+$border-color:      $dark-pink;
 
-// $gray-base:         $even-darker-pink;
+// Bootstrap
 
-$brand-primary:    darken($even-darker-pink, 50%);
+$brand-primary:    $loggan;
 $link-color:       $brand-primary;
-$link-hover-color: $even-darker-pink;
-$link-hover-bg:    $dark-pink;
+$link-hover-color: $link-color;
 
-
-$hr-border:                 $dark-pink;
-$page-header-border-color:  $dark-pink;
-$table-border-color:        $dark-pink;
-$panel-inner-border:        $dark-pink;
-$panel-default-border:      $dark-pink;
+$hr-border:                 $border-color;
+$blockquote-border-color:   $border-color;
+$page-header-border-color:  $border-color;
+$table-border-color:        $border-color;
+$panel-inner-border:        $border-color;
+$panel-default-border:      $border-color;
 
 $list-group-bg:                 #fff;
-$list-group-border:             $pink;
+$list-group-border:             $dark-pink;
 $list-group-hover-bg:           #f5f5f5;
 
 $body-bg:                          $light-pink;
@@ -30,9 +33,9 @@ $navbar-default-border:            $dark-pink;
 
 // Navbar links
 $navbar-default-link-color:                #000;
-$navbar-default-link-hover-color:          darken($even-darker-pink, 15%);
+$navbar-default-link-hover-color:          $loggan;
 $navbar-default-link-hover-bg:             transparent;
-$navbar-default-link-active-color:         #333;
+$navbar-default-link-active-color:         #000;
 $navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%);
 $navbar-default-link-disabled-color:       #ccc;
 $navbar-default-link-disabled-bg:          transparent;
