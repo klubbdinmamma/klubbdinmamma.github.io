@@ -33,7 +33,11 @@ Start:
 
 `live-server` will open the page automatically in Google Chrome Canary.
 
-## Links:
+## Notes
+
+`_sass/_variables.scss` is not used, it is just here as a convenience, to easily see what the exact name of a Bootstrap variable is, when we need to override it in `_sass/_colors.scss`.
+
+## Links
 
 * https://jekyllrb.com/docs/assets/
 * https://github.com/twbs/bootstrap-sass
