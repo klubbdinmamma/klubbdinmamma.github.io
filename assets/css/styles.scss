@@ -38,6 +38,12 @@ body {
   }
 }
 
+.announcement {
+  font-size: 4em;
+  color: #000;
+  background-color: $pink;
+}
+
 /*http://stackoverflow.com/questions/21324395/bootstrap-3-flush-footer-to-bottom-not-fixed*/
 /* Sticky footer styles
 -------------------------------------------------- */
