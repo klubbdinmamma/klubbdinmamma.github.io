@@ -2,6 +2,15 @@
 layout: default
 ---
 
+{% if jekyll.environment == "tumblr" %}
+  {block:HasPages}{block:Pages}
+    {block:Text}
+      {Body}
+    {/block:Text}
+  {/block:Pages}{/block:HasPages}
+
+  {block:IndexPage}
+{% endif %}
 <div class="row visible-md visible-lg">&nbsp;</div>
 <div class="row visible-md visible-lg">&nbsp;</div>
 
@@ -71,3 +80,6 @@ layout: default
     </a>
   </div><!-- end carousel -->
 </div><!-- end row -->
+{% if jekyll.environment == "tumblr" %}
+   {/block:IndexPage}
+{% endif %}

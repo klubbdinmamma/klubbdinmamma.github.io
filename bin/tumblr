@@ -1,0 +1,7 @@
+#!/bin/sh
+
+set -e
+
+JEKYLL_ENV=tumblr bundle exec jekyll build
+
+cp _site/index.html tumblr/new.html

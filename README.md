@@ -13,9 +13,13 @@ Install:
     gem install bundler
     bundle install
 
-Start:
+Start for development:
 
     bin/serve
+
+Build for Tumblr theme:
+
+    bin/tumblr
 
 Browse to [http://localhost:4000/](http://localhost:4000/).
 
@@ -53,3 +57,5 @@ Start:
 * http://garthdb.com/writings/i-am-a-jekyll-god/
 
 * http://tongueroo.com/articles/how-to-use-any-jekyll-plugins-on-github-pages-with-circleci/
+
+* https://www.tumblr.com/themes/recover
