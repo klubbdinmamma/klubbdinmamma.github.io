@@ -89,13 +89,35 @@
       <div class="row">
         <div class="col-sm-2"></div>
         <div class="col-sm-8">
-          
+
 
 {block:HasPages}{block:Pages}
   {block:Text}
     {Body}
   {/block:Text}
 {/block:Pages}{/block:HasPages}
+
+{block:Posts}
+  {block:Text}
+    <div class="news-text">
+      {block:Title}<h2>{Title}</h2>{/block:Title}
+
+      {Body}
+    </div>
+  {/block:Text}
+
+  {block:Photo}
+    <div class="news-photo">
+      <img src="{PhotoURL-500}" />
+    </div>
+
+    {block:Caption}
+      <div class="news-text">{Caption}</div>
+    {/block:Caption}
+  {/block:Photo}
+
+  <hr class="hr-short">
+{/block:Posts}
 
 {block:IndexPage}
 
