@@ -1,3 +1,5 @@
-#!/bin/sh
+#!/bin/sh -e
+
+./bin/serve &
 
 live-server --browser=/Applications/Google\ Chrome\ Canary.app _site

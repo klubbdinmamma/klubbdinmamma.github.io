@@ -35,7 +35,7 @@ Start:
 
     bin/live
 
-`live-server` will open the page automatically in Google Chrome Canary.
+`bin/live` will bundle, start Jekyll and open the page in Google Chrome Canary, it will automatically reload when something is changed.
 
 ## Notes
 
