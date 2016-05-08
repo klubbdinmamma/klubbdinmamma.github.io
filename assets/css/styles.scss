@@ -44,10 +44,23 @@ body {
   color: #000;
 }
 
-hr.announcement {
+hr.hr-short {
   width: auto;
   /* This leaves 10px margin on left and right. If only right margin is needed try margin-right: 10px; */
-  margin: 0 340px !important;
+  margin: 20px 340px !important;
+}
+
+.news-photo img {
+    display: block;
+    margin: 0 auto;
+}
+
+.news-text {
+    text-align: center; /* Center text in .block */
+}
+
+.news-text p {
+    text-align: left; /* Override centering by using left as a value */
 }
 
 /*http://stackoverflow.com/questions/21324395/bootstrap-3-flush-footer-to-bottom-not-fixed*/
