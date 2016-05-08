@@ -5828,9 +5828,14 @@ body {
       margin-bottom: 60px; } }
 
 .announcement {
-  font-weight: normal;
-  font-size: 4em;
+  font-style: italic;
+  font-size: 3em;
   color: #000; }
+
+hr.announcement {
+  width: auto;
+  /* This leaves 10px margin on left and right. If only right margin is needed try margin-right: 10px; */
+  margin: 0 340px !important; }
 
 /*http://stackoverflow.com/questions/21324395/bootstrap-3-flush-footer-to-bottom-not-fixed*/
 /* Sticky footer styles
