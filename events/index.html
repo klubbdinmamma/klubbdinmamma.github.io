@@ -136,8 +136,19 @@ layout: default
 
   </div>
   <div class="col-sm-6 text-right">
-    <br />&nbsp;
+    <h2>&nbsp;</h2>
+    &nbsp;<br />
 
-    <!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/f02415eb47d85249bd7abae3dd400b6b.html" id="lightwidget_f02415eb47" name="lightwidget_f02415eb47"  scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+    <div id="instafeed"></div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/instafeed.js/1.4.1/instafeed.min.js"></script>
+    <script type="text/javascript">
+        var feed = new Instafeed({
+          get: 'user',
+          userId: '571461318',
+          accessToken: '571461318.3d5e13e.303d5395045249608c5859b2af429537',
+        });
+        feed.run();
+    </script>
   </div>
 </div>
