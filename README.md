@@ -16,6 +16,7 @@ Install:
 Start for development:
 
     bin/serve
+    bin/rebuild
 
 Build for Tumblr theme:
 
