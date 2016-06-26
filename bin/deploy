@@ -9,7 +9,7 @@ git push origin dev
 REV=`git rev-parse --short HEAD`
 
 rm -rf _site
-bundle exec jekyll build
+bundle exec jekyll build --config _config.yml,_config_secrets.yml
 git checkout master
 cp -r -f _site/* .
 git add .
