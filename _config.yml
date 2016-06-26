@@ -18,3 +18,12 @@ exclude:
   - bin
   - tumblr
 url: http://nya.klubbdinmamma.com
+facebook:
+  app_id: 251757635194072
+  callback_url: http://klubbdinmamma.com
+  username: klubbdinmamma
+  exclude_albums:
+    - Mobile Uploads
+    - Cover Photos
+    - Timeline Photos
+    - Profile Pictures
