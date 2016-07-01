@@ -22,8 +22,26 @@ facebook:
   app_id: 251757635194072
   callback_url: http://klubbdinmamma.com
   username: klubbdinmamma
-  exclude_albums:
+  exclude_albums_from_download:
     - Mobile Uploads
     - Cover Photos
     - Timeline Photos
     - Profile Pictures
+  include_albums_in_html:
+    - Kite
+    - Postiljonen
+    - Little Jinder
+    - Vita Bergen
+    - Deportees
+    - YAST
+    - bob hund
+    - Urban Cone
+    - The Mary Onettes
+    - Vulkano + Taxi Taxi
+    - Naomi Pilgrim
+    - Solen
+    - Dante
+    - Zhala
+    - Vindvisa
+    - jj
+    - Colleagues
