@@ -64,11 +64,11 @@ class FacebookPhotos
     albums = []
 
     if local_albums_exist?
-      albums = JSON.load(File.open(albums_path))
+      albums = load(albums_path)
     else
       @remote ||= RemoteFacebookPhotos.new(@app_id, @app_secret, @callback_url)
       albums = @remote.get_albums(@username, @exclude_albums)
-      save(count: albums.count, data: albums.to_json, path: albums_path, type: :albums)
+      save(count: albums.count, data: albums.to_json, path: albums_path)
     end
 
     albums
@@ -78,22 +78,26 @@ class FacebookPhotos
     photos = []
 
     if local_photos_exist?(album_id)
-      photos = JSON.load(File.open(photos_path(album_id)))
+      photos = load(photos_path(album_id))
     else
       @remote ||= RemoteFacebookPhotos.new(@app_id, @app_secret, @callback_url)
       photos = @remote.get_photos(album_id)
-      save(count: photos.count, data: photos.to_json, path: photos_path(album_id), type: :photos)
+      save(count: photos.count, data: photos.to_json, path: photos_path(album_id))
     end
 
     photos
   end
 
-  def save(count:, type:, path:, data:)
+  def load(path)
+    JSON.load(File.open(path))
+  end
+
+  def save(count:, path:, data:)
     File.open(path, "w") do |f|
       f.write(data)
     end
 
-    puts "Saved #{count} #{type} to #{path}."
+    puts "Saved #{count} items to #{path}."
   end
 
   def albums_path
