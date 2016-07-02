@@ -18,22 +18,25 @@ class RenderFacebookPhotos < Liquid::Tag
 
     fb = FacebookPhotos.new(app_id, app_secret, callback_url, username, exclude_albums)
 
-    html = ""
+    html = <<-EOS
+      <div id="gallery" style="display:none;">
+    EOS
 
     fb.albums.each do |album|
       next unless include_albums.include?(album.name)
 
-      html << "<div class='facebook-photos'>\n"
-      html << "  <h2>#{album.name}</h2>\n"
-
       album.photos.each do |photo|
-        html << "  <a href='#{photo.source}' title='#{photo.caption}'>\n"
-        html << "    <img src='#{photo.thumbnail}' height='100' width='100'>\n"
-        html << "  </a>\n"
+        html += <<-EOS
+          <img alt="#{album.name} (#{photo.caption})" src="#{photo.thumbnail}"
+            data-image="#{photo.source}"
+            data-description="#{photo.caption}" />
+        EOS
       end
-
-      html << "</div>\n"
     end
+
+    html += <<-EOS
+      </div>
+    EOS
 
     html
   end

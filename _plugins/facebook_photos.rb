@@ -2,7 +2,23 @@ require "json"
 require_relative "remote_facebook_photos"
 
 Album = Struct.new(:id, :name, :created_time, :photos)
-Photo = Struct.new(:id, :caption, :source, :thumbnail)
+Photo = Struct.new(:id, :caption, :images) do
+  def thumbnail
+    second_smallest_image
+  end
+
+  def source
+    biggest_image
+  end
+
+  def second_smallest_image
+    images.sort_by { |image| image["height"] + image["width"] }[1]["source"]
+  end
+
+  def biggest_image
+    images.sort_by { |image| image["height"] + image["width"] }.last["source"]
+  end
+end
 
 class FacebookPhotos
   attr_reader :albums
@@ -25,8 +41,7 @@ class FacebookPhotos
         photo = Photo.new
         photo.id = photo_data["id"]
         photo.caption = photo_data["name"]
-        photo.thumbnail = photo_data["picture"]
-        photo.source = photo_data["images"].sort_by { |image| image["height"] + image["width"] }.last["source"]
+        photo.images = photo_data["images"]
 
         photo
       end

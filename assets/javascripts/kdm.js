@@ -4,13 +4,8 @@ $(document).ready(function () {
             $(this).find('a').attr('href') == window.location.pathname);
     });
 
-    $('.facebook-photos').each(function() {
-      $(this).magnificPopup({
-        delegate: 'a',
-        type: 'image',
-        gallery: {
-          enabled: true
-        }
-      });
+    jQuery("#gallery").unitegallery({
+      tile_enable_icons:false,
+      tiles_type: "justified",
     });
 });
