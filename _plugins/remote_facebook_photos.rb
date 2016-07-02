@@ -10,7 +10,7 @@ class RemoteFacebookPhotos
   end
 
   def get_albums(username, exclude_albums)
-    puts "Fetching all albums for \"#{username}\" ..."
+    puts "Fetching albums for \"#{username}\" ..."
 
     albums = graph.get_object("#{username}/albums")
 
