@@ -28,7 +28,7 @@ class RenderFacebookPhotos < Liquid::Tag
         <div id="gallery_#{index}" class="gallery" style="display:none; height: 400px;">
       EOS
 
-      album.photos.each do |photo|
+      album.photos.sample(10).each do |photo|
         html += <<-EOS
           <img alt="#{album.name} (#{photo.caption})" src="#{photo.thumbnail}"
             data-image="#{photo.source}"
