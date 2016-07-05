@@ -18,12 +18,15 @@ class RenderFacebookPhotos < Liquid::Tag
 
     fb = FacebookPhotos.new(app_id, app_secret, callback_url, username, exclude_albums)
 
-    html = <<-EOS
-      <div id="gallery" style="display:none;">
-    EOS
+    html = ""
 
-    fb.albums.each do |album|
+    fb.albums.each_with_index do |album, index|
       next unless include_albums.include?(album.name)
+
+      html += <<-EOS
+        <h2>#{album.name}</h2>
+        <div id="gallery_#{index}" class="gallery" style="display:none; height: 400px;">
+      EOS
 
       album.photos.each do |photo|
         html += <<-EOS
@@ -32,11 +35,11 @@ class RenderFacebookPhotos < Liquid::Tag
             data-description="#{photo.caption}" />
         EOS
       end
-    end
 
-    html += <<-EOS
-      </div>
-    EOS
+      html += <<-EOS
+        </div>
+      EOS
+    end
 
     html
   end
