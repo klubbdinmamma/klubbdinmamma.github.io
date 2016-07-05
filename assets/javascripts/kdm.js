@@ -4,8 +4,10 @@ $(document).ready(function () {
             $(this).find('a').attr('href') == window.location.pathname);
     });
 
-    jQuery("#gallery").unitegallery({
-      tile_enable_icons:false,
-      tiles_type: "justified",
+    $(".gallery").each(function() {
+        $(this).unitegallery({
+            tile_enable_icons:false,
+            tiles_type: "justified",
+        });
     });
 });
