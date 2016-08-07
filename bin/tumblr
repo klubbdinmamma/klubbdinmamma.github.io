@@ -2,6 +2,6 @@
 
 set -e
 
-JEKYLL_ENV=tumblr bundle exec jekyll build
+JEKYLL_ENV=tumblr bundle exec jekyll build --config _config.yml,_config_secrets.yml
 
 cp _site/index.html tumblr/new.html

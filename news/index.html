@@ -2,31 +2,6 @@
 layout: default
 ---
 
-{% if jekyll.environment == "tumblr" %}
-{block:Posts}
-  {block:Text}
-    <div class="news-text">
-      {block:Title}<h2>{Title}</h2>{/block:Title}
-
-      {Body}
-    </div>
-  {/block:Text}
-
-  {block:Photo}
-    <div class="news-photo">
-      <img src="{PhotoURL-500}" />
-    </div>
-
-    {block:Caption}
-      <div class="news-text">{Caption}</div>
-    {/block:Caption}
-  {/block:Photo}
-
-  <hr class="hr-short">
-{/block:Posts}
-
-{% else %}
-
 <div class="news-photo">
   <img src="http://41.media.tumblr.com/ef0adb8d4036dd3992543722c5f6aa00/tumblr_o2tgeb0bR11u6k6y5o1_500.png" />
 </div>
@@ -116,5 +91,3 @@ det euforiskt, svettigt och alldeles underbart!</p>
 <p></p>
 
 </div>
-
-{% endif %}
