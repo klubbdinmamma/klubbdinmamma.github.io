@@ -8,7 +8,7 @@ exclude:
   - Gemfile.lock
   - README.md
   - bin
-url: http://klubbdinmamma.com
+url: https://klubbdinmamma.com
 permalink: pretty
 facebook:
   app_id: 251757635194072
