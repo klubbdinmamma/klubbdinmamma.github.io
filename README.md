@@ -18,10 +18,6 @@ Start for development:
     bin/serve
     bin/rebuild
 
-Build for Tumblr theme:
-
-    bin/tumblr
-
 Browse to [http://localhost:4000/](http://localhost:4000/).
 
 [Live Server](https://github.com/tapio/live-server) (optional)
@@ -70,5 +66,3 @@ facebook:
 * http://garthdb.com/writings/i-am-a-jekyll-god/
 
 * http://tongueroo.com/articles/how-to-use-any-jekyll-plugins-on-github-pages-with-circleci/
-
-* https://www.tumblr.com/themes/recover
