@@ -1,0 +1,3 @@
+#!/bin/sh
+
+jq '.[] | (.created_time|strptime("%Y-%m-%dT%H:%M:%S+0000")|strftime("%Y-%m-%d")) + " " + .name' _data/albums.json

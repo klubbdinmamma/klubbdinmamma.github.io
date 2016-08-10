@@ -20,6 +20,18 @@ Start for development:
 
 Browse to [http://localhost:4000/](http://localhost:4000/).
 
+### List facebook albums
+
+Install [`jq`](https://stedolan.github.io/jq/):
+
+    brew install jq
+
+List:
+
+    bin/list-facebook-albums
+
+### Browser auto-reloading
+
 [Live Server](https://github.com/tapio/live-server) (optional)
 
 > A simple development http server with live reload capability.
