@@ -5909,3 +5909,11 @@ hr.hr-short {
 
   .vertical-align > [class^="col-"] > div {
     flex-grow: 1; } }
+/* credits to
+   http://reyhan.org/archive.html
+   http://reyhan.org/2013/03/jekyll-archive-without-plugins.html
+-------------------------------------------------- */
+#archive ul li time {
+  font-family: "Monaco", "Courier", monospace;
+  font-size: 14px;
+  padding-right: 10px; }
