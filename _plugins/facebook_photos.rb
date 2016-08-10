@@ -101,10 +101,10 @@ class FacebookPhotos
   end
 
   def albums_path
-    "_data/albums.json"
+    "_data/facebook/albums.json"
   end
 
   def photos_path(album_id)
-    "_data/photos_#{album_id}.json"
+    "_data/facebook/photos_#{album_id}.json"
   end
 end
