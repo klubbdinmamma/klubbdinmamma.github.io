@@ -1,0 +1,8 @@
+<section id="archive">
+<h3>{{ include.year }}</h3>
+<ul style="padding-left:0;">
+{% for event in include.events %}
+  <li><time>{{ event.date }}</time>{{ event.name }}</li>
+{% endfor %}
+</ul>
+</section>
