@@ -44,6 +44,16 @@ Start:
 
 `_sass/_variables_do_not_change.scss` is not used, it is just here as a convenience, to easily see what the exact name of a Bootstrap variable is, when we need to override it in `_sass/_colors.scss`.
 
+## Setup
+
+### `_config_secrets.yml`
+
+```yaml
+---
+facebook:
+  app_secret: secret-token-goes-here
+```
+
 ## Links
 
 * https://jekyllrb.com/docs/assets/

@@ -1,93 +1,24 @@
 ---
 layout: default
+paginate: true
 ---
 
-<div class="news-photo">
-  <img src="http://41.media.tumblr.com/ef0adb8d4036dd3992543722c5f6aa00/tumblr_o2tgeb0bR11u6k6y5o1_500.png" />
-</div>
+{% for post in site.posts limit:10 %}
+  {% if post.type == 'regluar' %}<h1>{{ post.title }}</h1>{% endif %}
 
-<div class="news-text">
+  <p>{{ post.content }}</p>
 
-<h2>Kite - 15 april</h2><p>&rdquo;De &auml;r Sveriges b&auml;sta elektroniska popband.&rdquo;<br>- Fredrik Strage, TV4 Nyhetsmorgon</p><p>&rdquo;Duon Kite &auml;r det b&auml;sta man kan uppleva live.&rdquo;<br>- Dagens Nyheter</p><p>&rdquo;Live lockar deras ofta m&auml;ktiga ljusshower publiken att b&aring;de dansa skiten ur sig och st&aring; apatisk och bara ta in.&rdquo;<br>- Aftonbladet</p><p>Visst &auml;r detta fantastiska omn&auml;mnanden? Mamma kan bara h&aring;lla med samtliga ovanst&aring;ende. Den 15 april g&auml;stas Mamma av sin tredje akt f&ouml;r s&auml;songen &ndash; Kite!</p><p>KITE debuterade 2008 och har sedan dess h&aring;llit v&aring;rt elektropop-sug ig&aring;ng genom att sl&auml;ppa EP&rsquo;s med j&auml;mna mellanrum. Duon best&aring;r av Nicklas Stenemo och Christian Berg, och bandet &auml;r k&auml;nt bland annat f&ouml;r sin mytiska och dimtunga aura. Deras senaste, och sj&auml;tte EP, sl&auml;pptes i b&ouml;rjan av 2015 och inneh&aring;ller bland annat l&aring;tarna &rdquo;Up for life&rdquo; och &rdquo;True Colours&rdquo; &ndash; flitigt spelade d&auml;ngor p&aring; Mammas skivspelare! P&aring; tidigare sl&auml;pp finner vi dessutom riktiga elektropopd&auml;ngor som &rdquo;Jonny Boy&rdquo; och &rdquo;Dance Again&rdquo;.</p><p>Vi &auml;r s&aring; glada att &auml;nnu en g&aring;ng kunna presentera denna fantastiska duo. S&aring; kom och f&ouml;rundras &ouml;ver en tung och legendarisk st&auml;mning, spektakul&auml;r ljuss&auml;ttning och trollbindande toner! Mamma kommer att vara d&auml;r &ndash; vi ses v&auml;l?! &#128266; &#128131;</p></p>
+  <br />
+  <p class="text-center">
+    <a href="{{ post.url }}" title="nyhet från {{ post.date }}">💕</a>
+  </p>
+  <br />
+{% endfor %}
 
-</div>
-
-<br />
-<p class="text-center">💕</p>
-<br />
-
-<div class="news-photo">
-  <img src="http://40.media.tumblr.com/02d77982dfd26a99b9c6ca57193d1185/tumblr_o15mdqbtST1u6k6y5o1_500.png" />
-</div>
-
-<div class="news-text">
-
-<p class="content_text"><h2>Little Jinder - 6 februari</h2>
-<p>OJ, vilken h&ouml;sttermin vi hade tillsammans! Mycket h&auml;nde
-  f&ouml;r Mamma under h&ouml;sten 2015 &ndash; ny lokal, fantastiska
-  spelningar, sp&auml;nnande samarbeten och inte minst en MAGISK PUBLIK! Med
-  en grym h&ouml;st bakom oss v&auml;nder vi oss nu mot ljuset och
-  V&Aring;REN. Hoppas att ni &auml;r precis lika taggade som oss p&aring;
-v&aring;rens klubbar och spelningar! &hearts;</p>
-<p><br>
-  KLUBB DIN MAMMA presenterar h&auml;rmed sitt f&ouml;rsta datum f&ouml;r
-v&aring;rterminen 2016.</p>
-<p><b>&#9834;&#9836; LIVE &ndash; LITTLE JINDER &#9834;&#9833;</b></p>
-<p>Efter debuten 2008, med EP:n &rdquo;Polyhedron&rdquo;, har det
-  skr&auml;llt och fortsatt att skr&auml;lla om Little Jinder. Med
-  hitl&aring;tar bakom sig som &rdquo;Ful och tr&aring;kig tjej&rdquo; och
-  &rdquo;Vita Bergens klockor&rdquo; &auml;r hon idag en av Sveriges mest
-  omtalade kvinnliga artister. Den Stockholmsbaserade, bubbelgumstuggande
-  popdottern har sedan sin debut charmat byxorna av hela Sverige med sin
-  trallv&auml;nliga och dansanta musik. Mamma &auml;r s&auml;ker p&aring; att
-  inte vara ensam om att ha skr&aring;lat med i n&aring;gon av Jinders
-  l&aring;tar klockan kvart i tre p&aring; n&aring;got svettigt
-dansgolv&hellip;</p>
-<p>2015 var ett h&auml;ndelserikt &aring;r f&ouml;r Little Jinder. I
-  februari tilldelades hon en Grammis i kategorin &rdquo;&Aring;rets
-  pop&rdquo; och kort d&auml;refter fick vi f&ouml;lja Jinder i
-  SVT-produktionen &ldquo;Kruneg&aring;rd och Jinder p&aring;
-  turn&eacute;&rdquo; som fick mycket uppm&auml;rksamhet. Jinder gjorde
-  dessutom dundersucc&eacute; med l&aring;ten &rdquo;Sommarnatt&rdquo; som
-blev lite av sommaren 15&rsquo;s stora pop-anthem.</p>
-<p>Med ett fantastiskt 2015 i ryggen forts&auml;tter Little Jinder sin
-  skr&auml;llsucc&eacute; in i 2016 och inleder &aring;ret med att vinna
-P3-guld i kategorin &ldquo;&Aring;rets pop&rdquo;!</p>
-<p>Jinder teasade oss rej&auml;lt med den fantastiska
-  &ldquo;H&aring;ngell&aring;ten&rdquo; som hon sl&auml;ppte redan i
-  h&ouml;stas tillsammans med Mauro Scocco &ndash; och inte blev vi besvikna
-  d&aring; albumet &ldquo;Allting Suger&rdquo; sl&auml;pptes den 14 januari!
-  Skivan g&aring;r VARM hos Mamma och vi &auml;r s&aring; taggade p&aring;
-  att f&aring; ta del av en s&aring; rykande f&auml;rsk platta p&aring;
-v&aring;r scen den 6 februari.</p>
-<p>Klubb Din Mamma &auml;r d&auml;rmed oerh&ouml;rt stolta och glada
-  &ouml;ver att f&aring; dansa in &aring;ret 2016 tillsammans med Little
-  Jinder, som blir Mammas f&ouml;rsta bokning f&ouml;r &aring;ret. Hon
-  g&auml;star oss p&aring; The Crypt den 6 februari 2016, d&aring; med ett
-  helt nytt och ultrafr&auml;scht album - och vi &auml;r s&auml;kra p&aring;
-  att &auml;ven detta &aring;r kommer att bli ett mycket hett &aring;r
-f&ouml;r Jinder! &hearts;</p>
-<p>Och PSST! Ni har v&auml;l inte missat detta?&nbsp;&ldquo;Little Jinder
-  befriar musiken fr&aring;n allt som &auml;r tr&aring;kigt&rdquo;
-  -&nbsp;<a href=
-    "http://t.umblr.com/redirect?z=http%3A%2F%2Fgaffa.se%2Frecension%2F102236&amp;t=MDIxZjhmZjVhZTAxYmU2OWE4YWI1OTY5NjBmNWJjNTVhZGJlNzYyMSwxWlBGUExJbw%3D%3D">l&auml;s
-  GAFFAS fantastiska recension av &ldquo;Allting Suger&rdquo;</a><br>
-  <br>
-  &hellip; och tagga lika mycket inf&ouml;r den 6 februari som Mamma
-g&ouml;r!</p>
-<p><b>&#9834;&#9836; KV&Auml;LLENS DJ: DJ PAPPALEDIG &#9834;&#9833;</b><br>
-  Precis som vanligt s&aring; bjuder Mamma p&aring; en helkv&auml;ll nere
-  p&aring; The Crypt! N&auml;r Little Jinder g&aring;r av scenen s&aring;
-  kommer det spelas plattor natten l&aring;ng och tillsammans dansar vi in
-  v&aring;rterminen! Med en av v&aring;ra alldeles egna Morm&ouml;drar blir
-det euforiskt, svettigt och alldeles underbart!</p>
-<p>&#9872; L&ouml;rdagen den 6 februari<br>
-  &#9872; D&ouml;rrarna &ouml;ppnar 21.00<br>
-  &#9872; The Crypt (stora scenen)<br>
-  &#9872; DJ: Mormor Dick aka Dj Pappaledig &hearts;<br>
-  &#9872; 120/105 kr (medlem)<br>
-- Ej f&ouml;rk&ouml;p, intr&auml;det betalas i entr&eacute;n</p>
-<p>VARMT V&Auml;LKOMNA! &hearts;</p>
-<p></p>
-
-</div>
+<p>&nbsp;</p>
+<hr style="width:75%;" />
+<p class="post-date text-center" style="font-family:monospace;">
+  <a href="/news/archive.html">
+    Se alla nyheter i arkivet
+  </a>
+</p>

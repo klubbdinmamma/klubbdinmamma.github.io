@@ -2,15 +2,6 @@
 layout: default
 ---
 
-{% if jekyll.environment == "tumblr" %}
-
-{block:IndexPage}
-  <div id="index"
-    {block:SearchPage}style="display: none;"{/block:SearchPage}
-    {block:TagPage}style="display: none;"{/block:TagPage}>
-
-{% endif %}
-
 <div class="row">&nbsp;</div>
 <div class="row visible-md visible-lg">&nbsp;</div>
 <div class="row visible-md visible-lg">&nbsp;</div>
@@ -93,37 +84,3 @@ layout: default
     </a>
   </div><!-- end carousel -->
 </div><!-- end row -->
-
-{% if jekyll.environment == "tumblr" %}
-
-  </div>
-{/block:IndexPage}
-
-{block:Posts}
-  <!-- Custom page -->
-  {block:Text}
-    <div class="news-text">
-      <!-- TITLE {block:Title}<h2>{Title}</h2>{/block:Title} -->
-
-      {Body}
-    </div>
-  {/block:Text}
-
-  <!-- News post -->
-  {block:Photo}
-    <div class="news-photo">
-      <img src="{PhotoURL-500}" />
-    </div>
-
-    {block:Caption}
-      <div class="news-text">
-        {Caption}
-      </div>
-    {/block:Caption}
-  <br />
-  <p class="text-center">💕</p>
-  <br />
-  {/block:Photo}
-{/block:Posts}
-
-{% endif %}

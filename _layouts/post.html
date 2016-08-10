@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="post">
+  {% if page.type == 'regular' %}<h1>{{ page.title }}</h1>{% endif %}
+
+  <p>{{ content }}</p>
+
+  <p>&nbsp;</p>
+  <hr style="width:75%;" />
+  <p class="post-date text-center" style="font-size:12px;font-family:monospace;">
+    nyhet från {{ page.date | date_to_string }},
+    <a href="/news/archive.html">
+      tillbaka till arkivet
+    </a>
+  </p>
+</div>
