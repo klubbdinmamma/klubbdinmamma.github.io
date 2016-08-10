@@ -9,6 +9,7 @@ exclude:
   - README.md
   - bin
 url: http://nya.klubbdinmamma.com
+permalink: pretty
 facebook:
   app_id: 251757635194072
   callback_url: http://klubbdinmamma.com
