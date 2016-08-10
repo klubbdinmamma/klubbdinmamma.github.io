@@ -10,6 +10,8 @@ $(document).ready(function() {
             tiles_type: "justified",
         });
     });
+
+    ScrollTrigger.init();
 });
 
 // http://stackoverflow.com/questions/14425300/scale-image-properly-but-fit-inside-div

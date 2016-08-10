@@ -143,3 +143,17 @@ hr.hr-short {
   font-size: 14px;
   padding-right: 10px;
 }
+
+/* https://github.com/terwanerik/ScrollTrigger
+-------------------------------------------------- */
+
+.invisible {
+  visibility:hidden;
+  transition: opacity 0.5s ease;
+  opacity: 0.0;
+}
+
+.visible {
+  transition: opacity 0.5s ease;
+  opacity: 1.0;
+}
