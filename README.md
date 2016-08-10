@@ -36,8 +36,6 @@ Start:
 
 ## Notes
 
-**WARNING**: If `.gitignore` is changed, make sure to make the same change in the `master` branch, otherwise, ignored content will be commited and pushed to GitHub.
-
 `_sass/_variables_do_not_change.scss` is not used, it is just here as a convenience, to easily see what the exact name of a Bootstrap variable is, when we need to override it in `_sass/_colors.scss`.
 
 ## Setup
