@@ -4,15 +4,26 @@ set -e
 
 if [[ -n $(git status --porcelain) ]]; then echo "repo is dirty"; exit 1; fi
 
+# sync origin
 git push origin dev
 
-REV=`git rev-parse --short HEAD`
-
+# build
 rm -rf _site
 bundle exec jekyll build --config _config.yml,_config_secrets.yml
+
+# where are we at
+REV=`git rev-parse --short HEAD`
+
+# change to gh-pages branch
 git checkout master
+
+# commit changes
 cp -r -f _site/* .
 git add .
 git commit -m "deploy ${REV}"
+
+# publish to public site
 git push origin master
+
+# restore development branch
 git checkout dev
