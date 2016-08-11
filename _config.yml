@@ -1,6 +1,7 @@
 ---
 gems:
   - jekyll-bootstrap-sass
+  - jekyll-redirect-from
 bootstrap:
   assets: true
 exclude:
