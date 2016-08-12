@@ -5913,7 +5913,7 @@ hr.hr-short {
    http://reyhan.org/archive.html
    http://reyhan.org/2013/03/jekyll-archive-without-plugins.html
 -------------------------------------------------- */
-#archive ul li time {
+.archive ul li time {
   font-family: "Monaco", "Courier", monospace;
   font-size: 14px;
   padding-right: 10px; }
