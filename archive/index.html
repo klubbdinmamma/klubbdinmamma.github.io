@@ -3,7 +3,7 @@ layout: default
 redirect_from:
   - /news/archive/
 ---
-<section id="archive">
+<section class="archive">
   <h3>Årets nyheter</h3>
   {%for post in site.posts %}
     {% unless post.next %}
@@ -17,7 +17,7 @@ redirect_from:
         <ul class="past">
       {% endif %}
     {% endunless %}
-      <li><time>{{ post.date | date:"%d %b" }}</time><a href="{{ post.url }}">{{ post.title | capitalize }}</a></li>
+      <li><time>{{ post.date | date:"%d %b" }}</time><a href="{{ post.url }}">{{ post.title | escape | capitalize }}</a></li>
   {% endfor %}
   </ul>
 </section>

@@ -12,3 +12,10 @@ gem "koala", "~> 2.2"
 group :development do
   gem "pry"
 end
+
+group :test do
+  gem "rake"
+
+  # https://github.com/gjtorikian/html-proofer
+  gem "html-proofer"
+end
