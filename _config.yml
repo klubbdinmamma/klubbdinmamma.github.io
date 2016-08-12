@@ -15,6 +15,7 @@ facebook:
   app_id: 251757635194072
   callback_url: http://klubbdinmamma.com
   username: klubbdinmamma
+  number_of_photos_to_show_per_album: 10
   exclude_albums_from_download:
     - Mobile Uploads
     - Cover Photos

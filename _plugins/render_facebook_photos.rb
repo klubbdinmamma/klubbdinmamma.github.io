@@ -15,6 +15,7 @@ class RenderFacebookPhotos < Liquid::Tag
     username       = config.fetch("facebook").fetch("username")
     exclude_albums = config.fetch("facebook").fetch("exclude_albums_from_download")
     include_albums = config.fetch("facebook").fetch("include_albums_in_html")
+    num_of_photos  = config.fetch("facebook").fetch("number_of_photos_to_show_per_album", 10).to_i
 
     fb = FacebookPhotos.new(app_id, app_secret, callback_url, username, exclude_albums)
 
@@ -28,7 +29,7 @@ class RenderFacebookPhotos < Liquid::Tag
         <div id="gallery_#{index}" class="gallery" style="display:none; height: 400px;">
       EOS
 
-      album.photos.sample(10).each do |photo|
+      album.photos.sample(num_of_photos).each do |photo|
         html += <<-EOS
           <img alt="#{album.name} (#{photo.caption})" src="#{photo.thumbnail}"
             data-image="#{photo.source}"
