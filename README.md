@@ -1,6 +1,6 @@
-# nya.klubbdinmamma.com
+# klubbdinmamma.com
 
-Preview at http://nya.klubbdinmamma.com.
+Live at https://klubbdinmamma.com.
 
 ## Tools
 
