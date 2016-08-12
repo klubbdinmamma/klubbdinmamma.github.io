@@ -10,7 +10,7 @@ class RenderFacebookPhotos < Liquid::Tag
     config = context.registers[:site].config
 
     app_id         = config.fetch("facebook").fetch("app_id")
-    app_secret     = config.fetch("facebook").fetch("app_secret")
+    app_secret     = config.fetch("facebook").fetch("app_secret", nil)
     callback_url   = config.fetch("facebook").fetch("callback_url")
     username       = config.fetch("facebook").fetch("username")
     exclude_albums = config.fetch("facebook").fetch("exclude_albums_from_download")

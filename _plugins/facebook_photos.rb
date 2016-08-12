@@ -65,6 +65,8 @@ class FacebookPhotos
 
     if local_albums_exist?
       albums = load(albums_path)
+    elsif @app_secret.nil?
+      abort "Configuration setting facebook.app_secret not set."
     else
       @remote ||= RemoteFacebookPhotos.new(@app_id, @app_secret, @callback_url)
       albums = @remote.get_albums(@username, @exclude_albums)
