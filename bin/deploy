@@ -17,6 +17,9 @@ REV=`git rev-parse --short HEAD`
 # change to gh-pages branch
 git checkout master
 
+# make sure we are up-to-date
+git pull
+
 # sync .gitignore
 git checkout dev -- .gitignore
 git commit --allow-empty -m "sync .gitignore with dev branch"
