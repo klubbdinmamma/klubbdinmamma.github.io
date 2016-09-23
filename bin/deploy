@@ -4,8 +4,9 @@ set -e
 
 if [[ -n $(git status --porcelain) ]]; then echo "repo is dirty"; exit 1; fi
 
-# sync origin
-git push origin dev
+# make sure we are up-to-date
+git checkout dev
+git pull
 
 # build
 rm -rf _site
@@ -17,7 +18,7 @@ REV=`git rev-parse --short HEAD`
 # change to gh-pages branch
 git checkout master
 
-# make sure we are up-to-date
+# make sure we have latest master
 git pull
 
 # sync .gitignore
