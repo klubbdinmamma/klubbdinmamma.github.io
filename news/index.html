@@ -4,7 +4,7 @@ paginate: true
 ---
 
 {% for post in site.posts limit:10 %}
-  {% if post.type == 'regluar' %}<h1>{{ post.title | escape }}</h1>{% endif %}
+  {% if post.type == 'regular' %}<h1>{{ post.title | escape }}</h1>{% endif %}
 
   {{ post.content }}
 
