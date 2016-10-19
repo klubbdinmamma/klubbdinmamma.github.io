@@ -22,6 +22,8 @@ facebook:
     - Timeline Photos
     - Profile Pictures
   include_albums_in_html:
+    - Boys
+    - Laakso
     - Kite
     - Postiljonen
     - Little Jinder
