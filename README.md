@@ -30,6 +30,14 @@ List:
 
     bin/list-facebook-albums
 
+### Update photo page with new facebook albums
+
+1. Update the list in `_config.yml`
+1. Remove `_data/facebook/albums.json`
+1. Rebuild the site: `bin/build`
+   new `albums.json` and new `photos_*.json` files will be downloaded
+1. Commit all files and deploy
+
 ### Browser auto-reloading
 
 [Live Server](https://github.com/tapio/live-server) (optional)
