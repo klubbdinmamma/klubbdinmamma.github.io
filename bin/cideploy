@@ -22,11 +22,19 @@ cp -r -f _site/* .
 git add .
 git commit -m "deploy ${REV}"
 
+# configure git
+git config --global credential.helper store
+git config --global user.email "info@klubbdinmamma.com"
+git config --global user.name "Klubb Din Mamma deploy"
+
 # stop printing commands, because GITHUB_ACCESS_TOKEN would be leaked
 set +x
 
-# fake print the command
-echo "+ git push https://github.com/klubbdinmamma/klubbdinmamma.github.io.git master"
+# make the github credentials available to git operations
+echo https://${GITHUB_ACCESS_TOKEN}:x-oauth-basic@github.com >> ~/.git-credentials
+
+# print each command again
+set -x
 
 # update the public site
-git push https://kdmgithub:${GITHUB_ACCESS_TOKEN}@github.com/klubbdinmamma/klubbdinmamma.github.io.git master
+git push https://github.com/klubbdinmamma/klubbdinmamma.github.io.git master
