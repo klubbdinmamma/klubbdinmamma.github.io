@@ -6,6 +6,11 @@ set -e
 # print each command
 set -x
 
+# configure git
+git config --global credential.helper store
+git config --global user.name "Auto-deploy via Travis CI"
+git config --global user.email "kdmgithub@users.noreply.github.com"
+
 # where are we at
 REV=`git rev-parse --short HEAD`
 
@@ -21,11 +26,6 @@ git commit --allow-empty -m "sync .gitignore with dev branch"
 cp -r -f _site/* .
 git add .
 git commit -m "deploy ${REV}"
-
-# configure git
-git config --global credential.helper store
-git config --global user.email "info@klubbdinmamma.com"
-git config --global user.name "Klubb Din Mamma deploy"
 
 # stop printing commands, because GITHUB_ACCESS_TOKEN would be leaked
 set +x
