@@ -5,14 +5,14 @@ gems:
 bootstrap:
   assets: true
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - bin
-  - vendor
-  - Rakefile
   - .ruby-version
   - .travis.yml
+  - bin
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - README.md
+  - vendor
 url: https://klubbdinmamma.com
 permalink: pretty
 facebook:
@@ -21,10 +21,10 @@ facebook:
   username: klubbdinmamma
   number_of_photos_to_show_per_album: 10
   exclude_albums_from_download:
-    - Mobile Uploads
     - Cover Photos
-    - Timeline Photos
+    - Mobile Uploads
     - Profile Pictures
+    - Timeline Photos
   include_albums_in_html:
     - Boys
     - Laakso
