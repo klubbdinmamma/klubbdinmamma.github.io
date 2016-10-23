@@ -10,6 +10,7 @@ exclude:
   - README.md
   - bin
   - vendor
+  - .travis.yml
 url: https://klubbdinmamma.com
 permalink: pretty
 facebook:

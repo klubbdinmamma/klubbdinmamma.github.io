@@ -3,3 +3,11 @@ cache: bundler
 branches:
   only:
   - dev
+deploy:
+  skip_cleanup: true
+  provider: script
+  script: bin/cideploy
+  on:
+    branch: dev
+GITHUB_ACCESS_TOKEN:
+  secure: vpGS+mj9u8huN1wpbWy9eEuVSlBd76OK1n/4r3tZcIS6q+hD8k8rm3noj94EXeK665n7fkqpaMmx7UPHDaguogC0twqwHu6aSZC/CjbZHjRt8/OouOhjap/nbYz73KYO6q3/ssijvWZIH3mYFx0Fb4kZalwRvaZ+duY1VjxtcY0EcT45pyfK1ran1Ln+gdIAqv2nc34HtkbDhS9oLNxYBdV+0x/T2d9V+MOECURNySHWGqal3zY4XnFn8KIdlJNc4LBHZ8Mba02g3trkzj6+lXgYdfbaGW9b4o439rK078BrfZQXZRKuKDMoQe5NYDbf+niiEK/4Trg18O7f4vmTkRM+VyOYrMNLAj/vhAsW/HWIxIcK6OY9JOBqu6Y+4WCDOQ5/5dLyyW4kMKHYpHKZrAdc4UETRaNGqiwh6+TGwO8HUCzIf533ZPBck7abfnv1+xGM5rrQcA3kE/hYPlOymGfXdd1CGF73pGoDWAVv1NIbz9rhbKXDUGS52fttas/EN5+S4tOBPlpZiqZeYFrHH6VCJZCls7gDC7JkamL+BF1t1kB/iZIyYK52guFd/wo84iE7bKrzLb+6ZKBz+QIDpugdCjd4rrjY9ZSkbMWPJ5svfVfevN1XHPxpCQFY3byhTR5NtDbezWKRZzoaM/CXgjeSdAuivD6pqGNi+MIWauo=

@@ -1,0 +1,22 @@
+#!/bin/sh
+
+set -e
+
+# where are we at
+REV=`git rev-parse --short HEAD`
+
+# change to gh-pages branch
+git fetch origin master:master
+git checkout master
+
+# sync .gitignore
+git checkout dev -- .gitignore
+git commit --allow-empty -m "sync .gitignore with dev branch"
+
+# commit site changes
+cp -r -f _site/* .
+git add .
+git commit -m "deploy ${REV}"
+
+# update the public site
+git push https://kdmgithub:${GITHUB_ACCESS_TOKEN}@github.com/klubbdinmamma/klubbdinmamma.github.io.git master
