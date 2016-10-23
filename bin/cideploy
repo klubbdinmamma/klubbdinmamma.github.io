@@ -1,6 +1,10 @@
 #!/bin/sh
 
+# exit on error
 set -e
+
+# print each command
+set -x
 
 # where are we at
 REV=`git rev-parse --short HEAD`
@@ -17,6 +21,12 @@ git commit --allow-empty -m "sync .gitignore with dev branch"
 cp -r -f _site/* .
 git add .
 git commit -m "deploy ${REV}"
+
+# stop printing commands, because GITHUB_ACCESS_TOKEN would be leaked
+set +x
+
+# fake print the command
+echo "+ git push https://github.com/klubbdinmamma/klubbdinmamma.github.io.git master"
 
 # update the public site
 git push https://kdmgithub:${GITHUB_ACCESS_TOKEN}@github.com/klubbdinmamma/klubbdinmamma.github.io.git master
