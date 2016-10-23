@@ -1,6 +1,6 @@
-# klubbdinmamma.com
+# [klubbdinmamma.com](https://klubbdinmamma.com)
 
-Live at https://klubbdinmamma.com.
+[![Build Status](https://travis-ci.org/klubbdinmamma/klubbdinmamma.github.io.svg?branch=dev)](https://travis-ci.org/klubbdinmamma/klubbdinmamma.github.io)
 
 ## Tools
 
