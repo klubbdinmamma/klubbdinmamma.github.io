@@ -9,7 +9,7 @@ exclude:
   - Gemfile.lock
   - README.md
   - bin
-  - vendor/cache
+  - vendor
 url: https://klubbdinmamma.com
 permalink: pretty
 facebook:
