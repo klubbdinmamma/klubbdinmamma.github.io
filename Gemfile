@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+gem "jekyll"
+
 # https://github.com/benbalter/jekyll-bootstrap-sass
 gem "jekyll-bootstrap-sass"
 
