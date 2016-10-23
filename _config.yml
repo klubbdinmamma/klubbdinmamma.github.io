@@ -10,6 +10,8 @@ exclude:
   - README.md
   - bin
   - vendor
+  - Rakefile
+  - .ruby-version
   - .travis.yml
 url: https://klubbdinmamma.com
 permalink: pretty
