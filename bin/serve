@@ -1,4 +1,4 @@
 #!/bin/sh
 
-bundle install
+bundle install --local
 bundle exec jekyll serve --skip-initial-build --no-watch --config _config.yml,_config_dev.yml,_config_secrets.yml
