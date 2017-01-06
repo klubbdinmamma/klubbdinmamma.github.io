@@ -52,6 +52,22 @@ class FacebookPhotos
 
   private
 
+  def deploying?
+    %w(push api cron).include?(ENV["TRAVIS_EVENT_TYPE"])
+  end
+
+  def use_local_albums?
+    return false if deploying?
+
+    local_albums_exist?
+  end
+
+  def use_local_photos?(album_id)
+    return false if deploying?
+
+    local_photos_exist?(album_id)
+  end
+
   def local_albums_exist?
     File.exist?(albums_path)
   end
@@ -63,7 +79,7 @@ class FacebookPhotos
   def get_data_for_albums
     albums = []
 
-    if local_albums_exist?
+    if use_local_albums?
       albums = load(albums_path)
     elsif @app_secret.nil?
       abort "Configuration setting facebook.app_secret not set."
@@ -79,7 +95,7 @@ class FacebookPhotos
   def get_data_for_photos(album_id)
     photos = []
 
-    if local_photos_exist?(album_id)
+    if use_local_photos?(album_id)
       photos = load(photos_path(album_id))
     else
       @remote ||= RemoteFacebookPhotos.new(@app_id, @app_secret, @callback_url)
