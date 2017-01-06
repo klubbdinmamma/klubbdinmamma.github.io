@@ -52,18 +52,18 @@ class FacebookPhotos
 
   private
 
-  def deploying?
-    %w(push api cron).include?(ENV["TRAVIS_EVENT_TYPE"])
+  def force_download?
+    ENV["FORCE_FACEBOOK_DATA_DOWNLOAD"] == "true"
   end
 
   def use_local_albums?
-    return false if deploying?
+    return false if force_download?
 
     local_albums_exist?
   end
 
   def use_local_photos?(album_id)
-    return false if deploying?
+    return false if force_download?
 
     local_photos_exist?(album_id)
   end

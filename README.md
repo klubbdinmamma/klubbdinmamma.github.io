@@ -33,10 +33,13 @@ List:
 ### Update photo page with new facebook albums
 
 1. Update the list in `_config.yml`
-1. Remove `_data/facebook/albums.json`
-1. Rebuild the site: `bin/build`
+1. Deploy, the auto-deploy will download latest Facebook data needed
+
+Force update of files in `_data/facebook`:
+
+1. Rebuild the site with: `FORCE_FACEBOOK_DATA_DOWNLOAD=true bin/build`
    new `albums.json` and new `photos_*.json` files will be downloaded
-1. Commit all files and deploy
+1. Commit the files
 
 ### Browser auto-reloading
 
