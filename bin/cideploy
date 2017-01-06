@@ -11,6 +11,9 @@ git config --global credential.helper store
 git config user.name "Auto-deploy via Travis CI"
 git config user.email "kdmgithub@users.noreply.github.com"
 
+# cleanup after the CI build so we can switch branch
+git checkout _data/facebook
+
 # where are we at
 REV=`git rev-parse --short HEAD`
 
