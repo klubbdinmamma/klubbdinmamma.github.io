@@ -13,10 +13,14 @@ Install:
     gem install bundler
     bundle install
 
-Start for development:
+Start for development (use this when modifying `_plugins/`)
 
     bin/serve
     bin/rebuild
+
+Or
+
+    bin/serve-and-rebuild
 
 Browse to [http://localhost:4000/](http://localhost:4000/).
 
