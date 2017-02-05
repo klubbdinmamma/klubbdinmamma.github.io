@@ -5917,3 +5917,12 @@ hr.hr-short {
   font-family: "Monaco", "Courier", monospace;
   font-size: 14px;
   padding-right: 10px; }
+
+/* credits to
+   http://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header
+-------------------------------------------------- */
+a.anchor {
+  display: block;
+  position: relative;
+  top: -50px;
+  visibility: hidden; }
