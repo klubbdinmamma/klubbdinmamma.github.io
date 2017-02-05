@@ -19,30 +19,38 @@ class RenderFacebookPhotos < Liquid::Tag
 
     fb = FacebookPhotos.new(app_id, app_secret, callback_url, username, exclude_albums)
 
-    html = ""
+    albums_html = ""
+    albums_links = []
 
     fb.albums.each_with_index do |album, index|
       next unless include_albums.include?(album.name)
 
-      html += <<-EOS
+      link_id = index
+
+      albums_links << %Q(<a href="##{link_id}">#{album.name}</a>)
+
+      albums_html += <<-EOS
+        <a class="anchor" name="#{link_id}"></a>
         <h2>#{album.name}</h2>
         <div id="gallery_#{index}" class="gallery" style="display:none; height: 400px;">
       EOS
 
       album.photos.sample(num_of_photos).each do |photo|
-        html += <<-EOS
+        albums_html += <<-EOS
           <img alt="#{album.name} (#{photo.caption})" src="#{photo.thumbnail}"
             data-image="#{photo.source}"
             data-description="#{photo.caption}" />
         EOS
       end
 
-      html += <<-EOS
+      albums_html += <<-EOS
         </div>
       EOS
     end
 
-    html
+    albums_links_html = albums_links.join(" • ")
+
+    "<p>#{albums_links_html}</p>#{albums_html}"
   end
 
   Liquid::Template.register_tag "facebook_photos", self
