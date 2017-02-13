@@ -26,6 +26,7 @@ facebook:
     - Profile Pictures
     - Timeline Photos
   include_albums_in_html:
+    - Rein
     - Hanna Järver
     - Boys
     - Laakso
