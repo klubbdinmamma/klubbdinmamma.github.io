@@ -28,7 +28,7 @@ git checkout dev -- .gitignore
 echo "/_data/" >> .gitignore
 
 # sync .gitignore
-git commit --allow-empty -m "sync .gitignore with dev branch"
+git commit --allow-empty -m "sync .gitignore with dev branch" .gitignore
 
 # commit site changes
 cp -r -f _site/* .
