@@ -21,8 +21,13 @@ REV=`git rev-parse --short HEAD`
 git fetch origin master:master
 git checkout master
 
-# sync .gitignore
+# checkout .gitignore from dev branch
 git checkout dev -- .gitignore
+
+# master branch should always ignore data files
+echo "/_data/" >> .gitignore
+
+# sync .gitignore
 git commit --allow-empty -m "sync .gitignore with dev branch"
 
 # commit site changes
