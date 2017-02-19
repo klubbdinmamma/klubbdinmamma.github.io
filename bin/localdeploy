@@ -23,7 +23,7 @@ git pull
 
 # sync .gitignore
 git checkout dev -- .gitignore
-git commit --allow-empty -m "sync .gitignore with dev branch"
+git commit --allow-empty -m "sync .gitignore with dev branch" .gitignore
 
 # commit site changes
 cp -r -f _site/* .
