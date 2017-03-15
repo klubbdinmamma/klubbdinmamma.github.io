@@ -1,7 +1,7 @@
 ---
 layout: post
 type: photo
-title: Simian Ghost - 10 mars
+title: 10 mars (Simian Ghost inställt)
 tags:
 - news
 - simian ghost
@@ -10,6 +10,18 @@ tags:
 <img class="news-photo" src="/assets/img/news/Simian_Ghost.png" alt="{{ page.title }}" />
 
 ## {{ page.title }}
+
+**Uppdatering**: Hörrni, nu kommer mammsen med dåliga och bra nyheter!
+
+De dåliga nyheterna är att Simian Ghost blir tyvärr inställt på grund av sjukdom! Jättetråkigt såklart och vi hoppas att de kryar på sig och att vi kanske får besök av dem någon annan gång i framtiden! <3
+
+De BRA nyheterna är att detta inte kommer stoppa Mamma från att styra en asfet klubbkväll med våra kompisar i Festfolk! Vi utlovar MASSA jävla dans när Festfolk x KDM-Crew sitter bakom ratten! 128BPM here we come!
+
+[Meddelande från Simian Ghost själva](https://www.facebook.com/events/1439477369427334/permalink/1461874043854333/?ref=1&action_history=null):
+
+> Hej alla! Vi är superledsna att ge beskedet att vi tyvärr inte kan spela imorgon. Vår sångare ligger däckad i sjukdom. När vi försökte sjunga och spela idag så lät det ungefär som att Sauron sjunger Tom Waits med Simian Ghost som kompband. Vi gillar er, så det är inte något vi vill utsätta er för! Hoppas ni kan förlåta oss och att vi kan komma snart igen och gottgöra denna missen! <3
+
+---
 
 En riktigt skimrande, rosenrosa kväll i sann mamma-anda väntar på The Crypt, då inga mindre än SIMIAN GHOST kommer tillbaka och hälsar på.
 💗🌹💗🌹💗🌹
