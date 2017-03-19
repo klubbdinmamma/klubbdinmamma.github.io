@@ -28,4 +28,5 @@ Nu är det hög tid att sätta igång bandets nya singlar och tagga inför en su
 ⚐ The Crypt (Stora scenen)<br />
 ⚐ 120/100 kr (medlem/inte medlem)<br />
 ⚐ 18 år<br />
-  Ej förköp, inträdet betalas i entrén<br />
+⚐ Ej förköp, inträdet betalas i entrén<br />
+⚐ Facebook: [Klubb Din Mamma - 22 april - Simian Ghost <3](https://www.facebook.com/events/105742123275279/)
