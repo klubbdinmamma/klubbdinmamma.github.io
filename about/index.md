@@ -23,3 +23,5 @@ Hösten 2009 tog Klubb Din Mamma ett stort kliv närmare sina trogna besökare o
 * Flashigt medlemskort att visa dina vänner.
 
 * Evengemang inför vissa spelningar.
+
+Våren 2017 tog Mamma ännu ett kliv närmare sina trogna besökare och erbjuder nu möjligheten att bli medlem online. <a href="https://goo.gl/forms/vC9gkV9ctSSQJPs72" target="_blank">Formulär för att bli medlem samt instruktioner för hur du betalar in medlemsavgiften</a>.
