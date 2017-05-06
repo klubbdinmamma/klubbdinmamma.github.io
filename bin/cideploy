@@ -24,7 +24,7 @@ git checkout master
 # checkout .gitignore from dev branch
 git checkout dev -- .gitignore
 
-# master branch should always ignore data files
+# master (github pages) branch need to ignore any data files, only used during jekyll build
 echo "/_data/" >> .gitignore
 
 # sync .gitignore
