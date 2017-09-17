@@ -1,9 +1,12 @@
 ---
 gems:
   - jekyll-bootstrap-sass
+  - jekyll-feed
   - jekyll-redirect-from
 bootstrap:
   assets: true
+feed:
+  path: rss
 exclude:
   - .ruby-version
   - .travis.yml

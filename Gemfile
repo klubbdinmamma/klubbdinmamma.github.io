@@ -5,6 +5,9 @@ gem "jekyll"
 # https://github.com/benbalter/jekyll-bootstrap-sass
 gem "jekyll-bootstrap-sass"
 
+# https://github.com/jekyll/jekyll-feed
+gem "jekyll-feed"
+
 # https://github.com/jekyll/jekyll-redirect-from
 gem "jekyll-redirect-from"
 
