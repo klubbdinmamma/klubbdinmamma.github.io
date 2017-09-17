@@ -30,7 +30,7 @@ git checkout dev -- .gitignore
 touch .nojekyll
 
 # make the root directory contain only the most recent site content
-rsync --verbose --archive --delete --exclude ./nojekyll ./.gitignore /.git _site _site/ .
+rsync --verbose --archive --delete --exclude ./nojekyll ./.gitignore ./.git _site _site/ .
 
 # commit site changes
 git add .
