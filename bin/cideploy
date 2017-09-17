@@ -26,11 +26,11 @@ git checkout master
 # checkout .gitignore from dev branch
 git checkout dev -- .gitignore
 
+# make the root directory contain only the most recent site content
+rsync --archive --delete --exclude ./.gitignore ./.git _site _site/ .
+
 # disable Jekyll processing on GitHub Pages
 touch .nojekyll
-
-# make the root directory contain only the most recent site content
-rsync --archive --delete --exclude ./nojekyll ./.gitignore ./.git _site _site/ .
 
 # commit site changes
 git add . .nojekyll .gitignore
