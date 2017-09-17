@@ -19,6 +19,7 @@ description: Klubb Din Mamma är en förening som anordnar schyssta spelningar i
 author: Mamma
 url: https://klubbdinmamma.com
 permalink: pretty
+excerpt_separator: ""
 facebook:
   app_id: 251757635194072
   callback_url: http://klubbdinmamma.com
