@@ -1,9 +1,0 @@
-.bundle
-.jekyll-metadata
-.sass-cache/
-_site/
-tmp/
-_config_secrets.yml
-
-## auto-deploy: don't commit the gems
-/vendor/bundle/
