@@ -33,7 +33,7 @@ touch .nojekyll
 rsync --verbose --archive --delete --exclude ./nojekyll ./.gitignore ./.git _site _site/ .
 
 # commit site changes
-git add .
+git add . .nojekyll .gitignore
 git commit -m "deploy ${REV} (${TRAVIS_EVENT_TYPE})"
 
 # stop printing commands, because GITHUB_ACCESS_TOKEN would be leaked
