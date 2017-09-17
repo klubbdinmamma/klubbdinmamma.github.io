@@ -24,7 +24,7 @@ git fetch origin master:master
 git checkout master
 
 # make the root directory contain only the most recent site content
-rsync --archive --delete --exclude ./.git _site _site/ .
+rsync --archive --delete --exclude='./.git' --exclude='./_site' _site/ .
 
 # cleanup before commit
 rm -rf _site
