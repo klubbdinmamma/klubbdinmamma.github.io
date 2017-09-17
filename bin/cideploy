@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# NOTE: do not run this script locally, it is designed to run on Travis CI
+
 # exit on error
 set -e
 
@@ -17,21 +19,20 @@ git checkout _data/facebook
 # where are we at
 REV=`git rev-parse --short HEAD`
 
-# change to gh-pages branch
+# change to the branch used for GitHub Pages
 git fetch origin master:master
 git checkout master
 
 # checkout .gitignore from dev branch
 git checkout dev -- .gitignore
 
-# master (github pages) branch need to ignore any data files, only used during jekyll build
-echo "/_data/" >> .gitignore
+# disable Jekyll processing on GitHub Pages
+touch .nojekyll
 
-# sync .gitignore
-git commit --allow-empty -m "sync .gitignore with dev branch" .gitignore
+# make the root directory contain only the most recent site content
+rsync --verbose --archive --delete --exclude ./nojekyll ./.gitignore /.git _site _site/ .
 
 # commit site changes
-cp -r -f _site/* .
 git add .
 git commit -m "deploy ${REV} (${TRAVIS_EVENT_TYPE})"
 
