@@ -5,6 +5,8 @@ title: Makthaverskan - 17 november
 tags:
 - news
 - makthaverskan
+redirect_from:
+  - /2017/10/03/makthaverskan/
 ---
 
 <img class="news-photo" src="/assets/img/news/makthaverskan_20171117.png" alt="{{ page.title }}" />
