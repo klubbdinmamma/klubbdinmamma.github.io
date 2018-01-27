@@ -31,6 +31,7 @@ facebook:
     - Profile Pictures
     - Timeline Photos
   include_albums_in_html:
+    - ShitKid
     - Makthaverskan
     - Mattias Alkberg
     - Vita Bergen (2017)
