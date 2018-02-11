@@ -68,17 +68,15 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
     method_source (0.8.2)
-    mini_portile2 (2.1.0)
+    mini_portile2 (2.3.0)
     minitest (5.9.0)
     multi_json (1.12.0)
     multipart-post (2.0.0)
-    nokogiri (1.6.8)
-      mini_portile2 (~> 2.1.0)
-      pkg-config (~> 1.1.7)
+    nokogiri (1.8.2)
+      mini_portile2 (~> 2.3.0)
     parallel (1.6.2)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
-    pkg-config (1.1.7)
     pry (0.10.3)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -113,4 +111,4 @@ DEPENDENCIES
   rake
 
 BUNDLED WITH
-   1.15.4
+   1.16.1
