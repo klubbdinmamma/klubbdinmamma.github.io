@@ -20,6 +20,7 @@ author: Mamma
 url: https://klubbdinmamma.com
 permalink: pretty
 excerpt_separator: ""
+timezone: Europe/Stockholm
 facebook:
   app_id: 251757635194072
   callback_url: http://klubbdinmamma.com
