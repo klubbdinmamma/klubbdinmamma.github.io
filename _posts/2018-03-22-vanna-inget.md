@@ -28,4 +28,4 @@ Vånna Inget är aktuella med livealbumet "Vi tar alla minnen härifrån" som pl
 ⚐ 18 år<br />
 ⚐ [Förköp via Tickster](https://www.tickster.com/sv/events/bnklyvk0j0mx46d/2018-04-06/vanna-inget)<br />
 ⚐ Facebook: [Klubb Din Mamma - 6 april - Vånna Inget](https://www.facebook.com/events/342272592950292/)<br />
-⚐ Spotify: [Lyssa på Vånna Inget](https://open.spotify.com/artist/2tTog0elDQJuJg66zHtwN4?si=i7EjXF0cThW-wchIheTm2A)<br />
+⚐ Spotify: [Lyssna på Vånna Inget](https://open.spotify.com/artist/2tTog0elDQJuJg66zHtwN4?si=i7EjXF0cThW-wchIheTm2A)<br />
