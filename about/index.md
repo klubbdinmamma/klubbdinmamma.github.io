@@ -14,7 +14,7 @@ Givetvis inte, Din Mamma hälsar alla över 18 år välkomna med öppna armar! D
 
 ## Kan man bli medlem i Klubb Din Mamma?
 
-Hösten 2009 tog Klubb Din Mamma ett stort kliv närmare sina trogna besökare och erbjuder möjligheten till ett medlemskap i klubben! Medlemskapet kostar 40 kronor per läsår och ger dig följande förmåner:
+Hösten 2009 tog Klubb Din Mamma ett stort kliv närmare sina trogna besökare och erbjuder möjligheten till ett medlemskap i klubben! Medlemskapet kostar 50 kronor per läsår och ger dig följande förmåner:
 
 * Billigare inträde på säsongens alla spelningar.
 
