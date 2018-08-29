@@ -22,6 +22,10 @@ Or
 
     bin/serve-and-rebuild
 
+Or
+
+    run.bat
+
 Browse to [http://localhost:4000/](http://localhost:4000/).
 
 ### List facebook albums
