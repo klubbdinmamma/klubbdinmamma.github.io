@@ -119,10 +119,10 @@ class FacebookPhotos
   end
 
   def albums_path
-    "_data/facebook/albums.json"
+    File.join("_data", "facebook", "albums.json")
   end
 
   def photos_path(album_id)
-    "_data/facebook/photos_#{album_id}.json"
+    File.join("_data", "facebook", "photos_#{album_id}.json")
   end
 end
