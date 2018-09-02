@@ -4,6 +4,7 @@ class RemoteFacebookPhotos
   attr_reader :graph
 
   def initialize(app_id, app_secret, callback_url)
+    Koala.config.api_version = "v3.1"
     oauth = Koala::Facebook::OAuth.new(app_id, app_secret, callback_url)
     access_token = oauth.get_app_access_token
     @graph = Koala::Facebook::API.new(access_token)
