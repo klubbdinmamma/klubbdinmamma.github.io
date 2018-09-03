@@ -32,6 +32,7 @@ facebook:
     - Profile Pictures
     - Timeline Photos
   include_albums_in_html:
+    - Shout Out Louds + GRANT
     - Vånna Inget
     - Terra
     - ShitKid
