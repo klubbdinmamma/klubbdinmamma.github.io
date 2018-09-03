@@ -21,6 +21,8 @@ REV=`git rev-parse --short HEAD`
 
 # change to the branch used for GitHub Pages
 git fetch origin master:master
+git status
+git diff
 git checkout master
 
 # make the root directory contain only the most recent site content
