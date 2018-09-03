@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="row">
-  <div class="col-sm-6">
+  <div class="col-sm-12">
     <h2>Tidigare konserter</h2>
     {% include events.html year="2017" events=site.data.events_2018 %}
     {% include events.html year="2017" events=site.data.events_2017 %}
@@ -17,22 +17,5 @@ layout: default
     {% include events.html year="2009" events=site.data.events_2009 %}
     {% include events.html year="2008" events=site.data.events_2008 %}
     {% include events.html year="2007" events=site.data.events_2007 %}
-  </div>
-
-  <div class="col-sm-6 text-right">
-    <h2>&nbsp;</h2>
-    &nbsp;<br />
-
-    <div id="instafeed"></div>
-
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/instafeed.js/1.4.1/instafeed.min.js"></script>
-    <script type="text/javascript">
-        var feed = new Instafeed({
-          get: 'user',
-          userId: '571461318',
-          accessToken: '571461318.3d5e13e.303d5395045249608c5859b2af429537',
-        });
-        feed.run();
-    </script>
   </div>
 </div>
