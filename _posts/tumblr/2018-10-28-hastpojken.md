@@ -27,6 +27,6 @@ Efter spelningen spelar Mamma skivor och ordnar som vanligt stans bästa dansgol
 ⚐ 150kr/200kr (medlem/icke medlem)<br />
 ⚐ På L’orient<br />
 ⚐ 18årsgräns<br />
-⚐ Fököp: https://secure.tickster.com/Intro.aspx?ERC=C7V6XZ5EC3D6FL7<br />
+⚐ [Fököp via Tickster](https://secure.tickster.com/Intro.aspx?ERC=C7V6XZ5EC3D6FL7)<br />
 ⚐ Facebook: [Klubb Din Mamma - 28 oktober - Hästpojken](https://www.facebook.com/events/256507918307106/)<br />
 ⚐ Spotify: [Lyssna på Hästpojken](https://open.spotify.com/artist/4LR7Yqrdq5TeOPe9O0qASx)<br />
