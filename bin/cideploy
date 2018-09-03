@@ -16,6 +16,10 @@ git config user.email "kdmgithub@users.noreply.github.com"
 # cleanup after the CI build so we can switch branch
 git checkout _data/facebook
 
+# more cleanup (Travis invoking "bundle install" adds stuff to the config)
+# https://github.com/bundler/bundler/issues/3288#issuecomment-65888159
+git checkout .bundle/config
+
 # where are we at
 REV=`git rev-parse --short HEAD`
 
