@@ -1,20 +1,22 @@
 // KDM
 
-$loggan:            #fc0072;
-$pink:              pink;
-$light-pink:        lighten($pink, 6.5%);
-$dark-pink:         darken($pink, 6.5%);
-$darker-pink:       darken($dark-pink, 6.5%);
+
+$pink:              #F16687;
+$light-pink:        #F3859B;
+$dark-pink:         #F16478;
+$darker-pink:       #F16674;
 $even-darker-pink:  darken($darker-pink, 6.5%);
-$footer-bg-color:   lighten($pink, 4%);
-$border-color:      $dark-pink;
+$footer-bg-color:   $light-pink;
+$border-color:      $darker-pink;
+$loggan:            $light-pink;
 
 // Bootstrap
 
-$text-color: #000;
+$text-color: 	   #fff;
+$announcement:	   $text-color;
 $brand-primary:    $loggan;
-$link-color:       $brand-primary;
-$link-hover-color: $link-color;
+$link-color:       $even-darker-pink;
+$link-hover-color: $darker-pink;
 
 $hr-border:                 $border-color;
 $blockquote-border-color:   $border-color;
@@ -33,11 +35,11 @@ $navbar-default-bg:                $pink;
 $navbar-default-border:            $dark-pink;
 
 // Navbar links
-$navbar-default-link-color:                #000;
+$navbar-default-link-color:                #fff;
 $navbar-default-link-hover-color:          $loggan;
 $navbar-default-link-hover-bg:             transparent;
-$navbar-default-link-active-color:         #000;
-$navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%);
+$navbar-default-link-active-color:         #fff;
+$navbar-default-link-active-bg:            $light-pink;
 $navbar-default-link-disabled-color:       #ccc;
 $navbar-default-link-disabled-bg:          transparent;
 
