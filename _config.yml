@@ -1,5 +1,5 @@
 ---
-gems:
+plugins:
   - jekyll-bootstrap-sass
   - jekyll-feed
   - jekyll-redirect-from
