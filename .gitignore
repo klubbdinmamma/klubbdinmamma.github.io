@@ -1,8 +1,10 @@
+*~
 .jekyll-metadata
 .sass-cache/
 _site/
 tmp/
 _config_secrets.yml
+Gemfile*
 
 ## auto-deploy: don't commit the gems
 /vendor/bundle/
