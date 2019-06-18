@@ -10,7 +10,7 @@ Ungefär en gång i månaden ställer Din Mamma till med hejdundrandes livekonse
 
 ## Är Klubb Din Mamma bara för studenter?
 
-Givetvis inte, Din Mamma hälsar alla över 18 år välkomna med öppna armar! Du som inte studerar behöver inte ta sällskap med en student eller maila till någon lista längre - det är bara att ställa sig i kön och traska in.Oavsett om du är student eller inte får du rabatt på inträdet om du blir Klubb Din Mamma-medlem!
+Givetvis inte, Din Mamma hälsar alla över 18 år välkomna med öppna armar! Du som inte studerar behöver inte ta sällskap med en student eller maila till någon lista längre - det är bara att ställa sig i kön och traska in. Oavsett om du är student eller inte får du rabatt på inträdet om du blir Klubb Din Mamma-medlem!
 
 ## Kan man bli medlem i Klubb Din Mamma?
 
