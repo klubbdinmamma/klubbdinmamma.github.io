@@ -12,4 +12,4 @@ Hösten 2009 tog Klubb Din Mamma ett stort kliv närmare sina trogna besökare o
 
 * Evengemang inför vissa spelningar, som t ex exklusiva förfester.
 
-## <a href="https://goo.gl/forms/vC9gkV9ctSSQJPs72" target="_blank">Formulär för att bli medlem samt instruktioner för hur du betalar in medlemsavgiften</a>
+## <a href="https://forms.gle/2TfbFeaV1RwUMQXA7" target="_blank">Formulär för att bli medlem samt instruktioner för hur du betalar in medlemsavgiften</a>
