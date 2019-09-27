@@ -95,3 +95,7 @@ facebook:
 * http://garthdb.com/writings/i-am-a-jekyll-god/
 
 * http://tongueroo.com/articles/how-to-use-any-jekyll-plugins-on-github-pages-with-circleci/
+
+## Privacy Policy  
+
+No login information of users stored, you cannot sign in to our webpage. Membership status with name only kept if we are given consent. 
