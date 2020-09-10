@@ -3977,7 +3977,7 @@ tbody.collapse.in {
     .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
       background-color: #F3859B; }
     .navbar-default .navbar-toggle .icon-bar {
-      background-color: #F16674; }
+      background-color: #fff; }
   .navbar-default .navbar-collapse,
   .navbar-default .navbar-form {
     border-color: #F16478; }
