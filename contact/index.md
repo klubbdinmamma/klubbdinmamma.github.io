@@ -12,8 +12,8 @@ Mamma har en kompentent skara med DJ:s under sina vingar. Har du en egen tillst�
 
 ## Var håller Klubb Din Mamma hus?
 
-Din Mamma har oftast arrangemang på det förträffliga L'Orient, nästan mitt i Linköpings hjärta (Drottninggatan 18).
+Din Mamma har oftast arrangemang på det förträffliga Platens bar, nästan mitt i Linköpings hjärta (Platensgatan 5).
 
 <div class="embed-responsive embed-responsive-4by3">
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8360.347867766754!2d15.6268901!3d58.408794!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xefbd094edd6f64c!2sL&#39;Orient!5e0!3m2!1sen!2sse!4v1507046942506" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.se/maps/place/Platens+Bar/@58.4118821,15.6185558,17z/data=!3m1!4b1!4m5!3m4!1s0x46596f2520a552dd:0x73a7a0def7e9e98c!8m2!3d58.4118821!4d15.6207445" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
