@@ -12,6 +12,11 @@ Ungefär en gång i månaden ställer Din Mamma till med hejdundrandes livekonse
 
 Givetvis inte, Din Mamma hälsar alla över 18 år välkomna med öppna armar! Du som inte studerar behöver inte ta sällskap med en student eller maila till någon lista längre - det är bara att ställa sig i kön och traska in. Oavsett om du är student eller inte får du rabatt på inträdet om du blir Klubb Din Mamma-medlem!
 
+## Tillgänglighet hos Klubb din Mamma
+
+Klubb din Mamma är medvetna om funktionsvariationer och jobbar för att vara tillgängliga för alla. Om du är rullstolsburen går det bra att höra av sig till <a href="info@klubbdinmamma.com"> innan spelningen så att vi kan hjälpa dig in i lokalen. 
+Under spelningar är det en hög ljudnivå och kan förekomma starkt blinkande ljus samt rök från rökmaskin. Om detta är något som påverkar dig som planerar att gå på spelning hos Din Mamma får du gärna hör av dig till mejladressen ovan. 
+
 ## Kan man bli medlem i Klubb Din Mamma?
 
 Hösten 2009 tog Klubb Din Mamma ett stort kliv närmare sina trogna besökare och erbjuder möjligheten till ett medlemskap i klubben! Medlemskapet kostar endast 30/50 kronor per termin/år och ger dig flera prisvärda förmåner:
