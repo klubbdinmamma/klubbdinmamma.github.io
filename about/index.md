@@ -14,9 +14,9 @@ Givetvis inte, Din Mamma hälsar alla över 18 år välkomna med öppna armar! D
 
 ## Tillgänglighet hos Klubb din Mamma
 
-Klubb din Mamma är medvetna om funktionsvariationer och jobbar för att vara tillgängliga för alla. Om du är rullstolsburen går det bra att höra av sig till info@klubbdinmamma.com innan spelningen så att vi kan hjälpa dig in i lokalen. 
+Klubb din Mamma är medvetna om funktionsvariationer och jobbar för att vara tillgängliga för alla. Om du är rullstolsburen går det bra att höra av sig till info@klubbdinmamma.com innan spelningen så kan vi hjälpa dig in i lokalen. 
 
-Under spelningar är det en hög ljudnivå och kan förekomma starkt blinkande ljus samt rök från rökmaskin. Om detta är något som påverkar dig som planerar att gå på spelning hos Din Mamma får du gärna hör av dig till mejladressen ovan. 
+Under spelningar är det en hög ljudnivå och kan förekomma starkt blinkande ljus samt rök från rökmaskin. Om detta är något som påverkar dig som planerar att gå på spelning hos Klubb Din Mamma får du gärna hör av dig till mejladressen ovan. 
 
 ## Kan man bli medlem i Klubb Din Mamma?
 
