@@ -34,9 +34,13 @@ Den 9/10 kommer vi få dansa till synt-poppiga toner á la Need For Speed. Mamma
 💗 🌹 💗 
 
 ✨ Platens Bar
+
 ✨ Fredagen den 9:e oktober
+
 ✨ 80/100 (medlem/icke medlem)
+
 ✨ 18-årsgräns
+
 
 💗 Mamma är medveten om funktionsvariationer och det finns därför möjlighet att komma in i lokalen för dig som exempelvis är rullstolsburen. Hör av dig till oss så hjälper vi dig!💗
 Detta evenemang har stöttats av Kulturrådet, Studiefrämjandet och Sensus.
