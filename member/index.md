@@ -6,7 +6,7 @@ layout: default
 
 Din Mamma hälsar alla över 18 år välkomna med öppna armar!
 
-Hösten 2009 tog Klubb Din Mamma ett stort kliv närmare sina trogna besökare och erbjuder möjligheten till ett medlemskap i klubben! Medlemskapet kostar endast 30/50 kronor per termin/år och ger dig flera prisvärda förmåner:
+Hösten 2009 tog Klubb Din Mamma ett stort kliv närmare sina trogna besökare och erbjuder möjligheten till ett medlemskap i klubben! Medlemskapet skaffas genom en engångskostnad på 50 kronor och ger dig flera prisvärda förmåner:
 
 * Billigare inträde på säsongens alla spelningar.
 
