@@ -4,7 +4,7 @@ layout: default
 
 ## Vill spela på Klubb Din Mamma?
 
-Tycker du att Du och ditt band har ett jäkla bra drag som skulle passa hos oss så slänger du iväg ett mail till info@klubbdinmamma.com så får vi se om Ni kan förgylla Linköpingsnatten så som era föregångare har gjort.
+Tycker du att Du och ditt band har ett jäkla bra drag som skulle passa hos oss så slänger du iväg ett mail till bokning@klubbdinmamma.com så får vi se om Ni kan förgylla Linköpingsnatten så som era föregångare har gjort.
 
 ## Vill du ha Mamma som DJ?
 
