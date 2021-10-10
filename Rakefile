@@ -1,4 +1,4 @@
-require "html/proofer"
+require "html-proofer"
 
 task :default => [:test]
 
@@ -10,5 +10,5 @@ task :test do
     check_html: true,
     disable_external: true,
   }
-  HTML::Proofer.new("./_site", html_proofer_options).run
+  HTMLProofer.check_directory("./_site", html_proofer_options).run
 end
