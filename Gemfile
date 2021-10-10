@@ -4,6 +4,9 @@ gem "jekyll"
 gem "tzinfo"
 gem "tzinfo-data"
 
+# Jekyll 4 needs this one
+gem "kramdown-parser-gfm"
+
 # https://github.com/benbalter/jekyll-bootstrap-sass
 gem "jekyll-bootstrap-sass"
 
