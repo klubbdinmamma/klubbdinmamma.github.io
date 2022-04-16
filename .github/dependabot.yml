@@ -1,0 +1,10 @@
+version: 2
+updates:
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      time: "10:00"
+      timezone: "Europe/Stockholm"
+    vendor: true
+    open-pull-requests-limit: 7
