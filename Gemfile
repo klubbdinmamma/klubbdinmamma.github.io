@@ -17,7 +17,7 @@ gem "jekyll-feed"
 gem "jekyll-redirect-from"
 
 # https://github.com/arsduo/koala (Facebook client)
-gem "koala", "~> 3.0"
+gem "koala", "~> 3.2"
 
 group :development do
   gem "pry"
