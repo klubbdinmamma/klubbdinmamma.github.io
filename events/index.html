@@ -5,6 +5,7 @@ layout: default
 <div class="row">
   <div class="col-sm-12">
     <h2>Tidigare konserter</h2>
+    {% include events.html year="2024" events=site.data.events_2024 %}
     {% include events.html year="2023" events=site.data.events_2023 %}
     {% include events.html year="2022" events=site.data.events_2022 %}
     {% include events.html year="2021" events=site.data.events_2021 %}
