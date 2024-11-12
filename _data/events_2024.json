@@ -1,5 +1,8 @@
 [
-    
+    {
+    "date":"2024-11-09",
+    "name":"Jens Hult"    
+    },
     {
     "date":"2024-10-04",
     "name":"Nektar"    
@@ -22,6 +25,6 @@
     },
     {
     "date":"2024-03-01",
-    "name":"Dolce + Hilma Phalén (Samarbete med City to City)"    
+    "name":"Dolce (Samarbete med City to City)"    
     },
 ]
