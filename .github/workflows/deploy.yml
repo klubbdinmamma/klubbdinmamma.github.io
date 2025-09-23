@@ -8,12 +8,15 @@ on:
   # https://github.com/klubbdinmamma/klubbdinmamma.github.io/actions?query=workflow:Deploy
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   deploy-github-pages:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v5
 
       - name: Setup Ruby and install dependencies
         uses: ruby/setup-ruby@v1
@@ -24,7 +27,7 @@ jobs:
         run: bundle exec rake
 
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.0.0
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: master
           folder: _site
